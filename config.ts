@@ -8,12 +8,12 @@ config.config = {
     "debug": false,
     "projectName": "Sensor",
     "projectNameLong": "WolfBot",
-    "protocol": "https://",
+    "protocol": "http://", // changed from https
     "port": 8331,
     "tlsPort": 8332,
     "portDef": 8331,
     "tlsPortDef": 8332,
-    "httpsOnly": true,              // redirect http to https (if protocol config is https)
+    "httpsOnly": false,              // redirect http to https (if protocol config is https) changed from true
     "serverDataDir": "./src/server/data/",
     "logfile": "logfile.log",
     "deleteOldLog": true,
