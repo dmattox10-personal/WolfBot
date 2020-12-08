@@ -6,8 +6,8 @@ const path = require("path");
 //const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-    //mode: "production",
-    mode: "development",
+    mode: "production", // CHANGED
+    // mode: "development", // CHANGED
     target: "web",
 
     entry: "./public/js/index.ts",
@@ -17,7 +17,7 @@ module.exports = {
     },
 
     // Enable sourcemaps for debugging webpack's output.
-    devtool: "source-map",
+    // devtool: "source-map", // CHANGED
 
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
@@ -44,7 +44,7 @@ module.exports = {
             },
 
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+            // { enforce: "pre", test: /\.js$/, loader: "source-map-loader" } // CHANGED
         ]
     },
 
