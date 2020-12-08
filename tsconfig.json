@@ -6,12 +6,12 @@
     "rootDir": "./",
     "outDir": "./build",
     "allowJs": false,
-    "sourceMap": true,
+    "sourceMap": false,
     "pretty": true,
     "alwaysStrict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "watch": true
+    "watch": false
   },
   "compileOnSave": true,
   "exclude": [
