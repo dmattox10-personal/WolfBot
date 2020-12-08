@@ -45,7 +45,7 @@ try {
 catch (err) {
     console.log(cloudMessage);
 }
-require('source-map-support').install();
+// require('source-map-support').install();
 import * as utils from '@ekliptor/apputils';
 const nconf = utils.nconf;
 //const appRoot = require('app-root-path')
